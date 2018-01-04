@@ -454,6 +454,13 @@ class RoleBinding(NamespacedAPIObject):
     kind = "RoleBinding"
 
 
+class StorageClass(APIObject):
+
+    version = "storage.k8s.io/v1beta1"
+    endpoint = "storageclasses"
+    kind = "StorageClass"
+
+
 class ClusterRole(APIObject):
 
     version = "rbac.authorization.k8s.io/v1alpha1"

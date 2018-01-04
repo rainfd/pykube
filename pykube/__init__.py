@@ -19,6 +19,7 @@ from .objects import (  # noqa
     LimitRange,
     Namespace,
     Node,
+    StorageClass,
     PersistentVolume,
     PersistentVolumeClaim,
     PetSet,

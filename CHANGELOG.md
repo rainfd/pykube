@@ -6,6 +6,7 @@
   * `CronJob`
   * `PodSecurityPolicy`
   * `LimitRange`
+  * `StorageClass`
 * `pykube` namespace exposes `PersistentVolume` and `PersistentVolumeClaim`
 * Ensure six >= 1.10.0 is installed (fixed #116)
 * `StatefulSet` learned to scale by inheriting from `ReplicatedMixin` and `ScalableMixin`
